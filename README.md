@@ -1,13 +1,1 @@
-# Demo test suites for Robotframework
-
-## Run test suites locally
-`robot --outputdir=./output-local --variable HEADLESS_BROWSER_ENABLED:False robot-tests/selenium-library`
-
-## Generate the test case documentation
-`python3 -m robot.testdoc robot-tests output-local/keywords.html`
-
-## Generate the keyword documentation
-`python3 -m robot.libdoc robot-tests output-local/keywords2.html`
-
-## Run test suites in docker
-`docker-compose up`
+dGVzdCBtZXNzYWdlCiMgRGVtbyB0ZXN0IHN1aXRlcyBmb3IgUm9ib3RmcmFtZXdvcmsKCiMjIFJ1biB0ZXN0IHN1aXRlcyBsb2NhbGx5CmByb2JvdCAtLW91dHB1dGRpcj0uL291dHB1dC1sb2NhbCAtLXZhcmlhYmxlIEhFQURMRVNTX0JST1dTRVJfRU5BQkxFRDpGYWxzZSByb2JvdC10ZXN0cy9zZWxlbml1bS1saWJyYXJ5YAoKIyMgR2VuZXJhdGUgdGhlIHRlc3QgY2FzZSBkb2N1bWVudGF0aW9uCmBweXRob24zIC1tIHJvYm90LnRlc3Rkb2Mgcm9ib3QtdGVzdHMgb3V0cHV0LWxvY2FsL2tleXdvcmRzLmh0bWxgCgojIyBHZW5lcmF0ZSB0aGUga2V5d29yZCBkb2N1bWVudGF0aW9uCmBweXRob24zIC1tIHJvYm90LmxpYmRvYyByb2JvdC10ZXN0cyBvdXRwdXQtbG9jYWwva2V5d29yZHMyLmh0bWxgCgojIyBSdW4gdGVzdCBzdWl0ZXMgaW4gZG9ja2VyCmBkb2NrZXItY29tcG9zZSB1cGAK
