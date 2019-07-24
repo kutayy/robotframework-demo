@@ -1,4 +1,3 @@
-test message
 # Demo test suites for Robotframework
 
 ## Run test suites locally
